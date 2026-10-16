@@ -1,0 +1,32 @@
+{
+  "name": "bounty-sanity-check",
+  "version": "1.0.0",
+  "description": "Check whether an open-source bounty will actually pay you before you spend hours on it. Detects maintainer-cancelled bounty programs, already-paid bounties, closed-but-still-listed issues, and competing PRs.",
+  "main": "index.js",
+  "bin": {
+    "bounty-sanity-check": "cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "bounty",
+    "algora",
+    "open-source",
+    "github",
+    "mcp",
+    "ai-agent",
+    "issue",
+    "payout"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "mcp-server.js",
+    "README.md"
+  ]
+}
